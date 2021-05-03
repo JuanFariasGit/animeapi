@@ -8,5 +8,5 @@ mvn spring-boot:run
 ~~~
 Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
 ~~~
-http://localhost:8080/api/v1/anime
+http://localhost:8080/swagger-ui.html#/anime45controller
 ~~~
