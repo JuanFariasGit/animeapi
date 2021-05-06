@@ -10,3 +10,5 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço:
 ~~~
 http://localhost:8080/swagger-ui.html
 ~~~
+
+![image](https://user-images.githubusercontent.com/49367122/117377027-b6d3ba80-aea8-11eb-8e8b-5257d4725c6f.png)
