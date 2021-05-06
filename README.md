@@ -8,5 +8,5 @@ mvn spring-boot:run
 ~~~
 Após executar o comando acima, basta apenas abrir o seguinte endereço:
 ~~~
-http://localhost:8080/swagger-ui.html#/anime45controller
+http://localhost:8080/swagger-ui.html
 ~~~
