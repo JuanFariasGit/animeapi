@@ -21,7 +21,7 @@ import java.util.List;
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class AnimeController {
 
-    private AnimeService animeService;
+    private final AnimeService animeService;
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)

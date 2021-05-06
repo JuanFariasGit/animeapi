@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class AnimeService {
 
-    private AnimeRepository animeRepository;
+    private final AnimeRepository animeRepository;
 
     private final AnimeMapper animeMapper = AnimeMapper.INSTANCE;
 
