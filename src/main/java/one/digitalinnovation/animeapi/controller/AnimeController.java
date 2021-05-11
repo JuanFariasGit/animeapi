@@ -15,7 +15,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/anime")
+@RequestMapping("/api/v1/animes")
 @Api(value = "AnimeAPI")
 @CrossOrigin("*")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
