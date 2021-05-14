@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/categories")
-@Api(value = "AnimeAPI")
+@Api(value = "AnimeAPI", tags = {"Category"})
 @CrossOrigin("*")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CategoryController {
@@ -37,7 +37,7 @@ public class CategoryController {
     }
 
     @GetMapping("/{id}")
-    @ApiOperation("Retorna uma categoria unico")
+    @ApiOperation("Retorna uma única categoria")
     public CategoryDTO findById(@PathVariable Long id) throws CategoryNotFoundException {
         return categoryService.findById(id);
     }
@@ -50,7 +50,7 @@ public class CategoryController {
     }
 
     @DeleteMapping("/{id}")
-    @ApiOperation("Deleta uma categoria")
+    @ApiOperation("Exclui uma categoria, mas, só é possivel se a mesma não estiver sedo utilizada por nenhum anime")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable Long id) throws CategoryNotFoundException {
         categoryService.delete(id);

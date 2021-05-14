@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/animes")
-@Api(value = "AnimeAPI")
+@Api(value = "AnimeAPI", tags = {"Anime"})
 @CrossOrigin("*")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class AnimeController {
@@ -37,7 +37,7 @@ public class AnimeController {
     }
 
     @GetMapping("/{id}")
-    @ApiOperation("Retorna um anime unico")
+    @ApiOperation("Retorna um único anime")
     public AnimeDTO findById(@PathVariable Long id) throws AnimeNotFoundException {
         return animeService.findById(id);
     }
@@ -50,7 +50,7 @@ public class AnimeController {
     }
 
     @DeleteMapping("/{id}")
-    @ApiOperation("Deleta um anime")
+    @ApiOperation("Exclui um anime")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable Long id) throws AnimeNotFoundException {
         animeService.delete(id);
