@@ -2,7 +2,9 @@
 
 ### disponível em https://animeapi-project-spring-boot.herokuapp.com/swagger-ui.html
 
-SGDB postgreSQL configuração localhost:
+SGDB utilizado : PostgreSQL
+
+Configuração localhost:
 ~~~
 Database : animeapi
 Username : postgres
