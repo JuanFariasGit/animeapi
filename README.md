@@ -2,6 +2,13 @@
 
 ### disponível em https://animeapi-project-spring-boot.herokuapp.com/swagger-ui.html
 
+SGDB postgreSQL Configuração Localhost
+~~~
+Database : animeapi
+Username : postgres
+Password : 1234
+~~~
+
 Para executar o projeto no terminal, digite o seguinte comando:
 ~~~
 mvn spring-boot:run 
@@ -10,7 +17,7 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço:
 ~~~
 http://localhost:8080/swagger-ui.html
 ~~~
-Animes
+Anime:
 ~~~
 Verbo HTTP        Path             Action
 
@@ -24,7 +31,7 @@ Verbo HTTP        Path             Action
    
    PUT     /api/v1/animes/{id}     atualiza um anime
 ~~~
-Categories
+Category:
 ~~~
 Verbo HTTP        Path                 Action
 
