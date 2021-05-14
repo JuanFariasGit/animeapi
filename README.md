@@ -20,7 +20,7 @@ Verbo HTTP        Path             Action
    
    DELETE   /api/v1/animes/{id}    exclui um anime
    
-   GET     /api/v1/animes/{id}     retorna um anime unico
+   GET     /api/v1/animes/{id}     retorna um unico anime
    
    PUT     /api/v1/animes/{id}     atualiza um anime
 ~~~
@@ -34,7 +34,7 @@ Verbo HTTP        Path                 Action
    
    DELETE   /api/v1/categories/{id}    exclui uma categoria
    
-   GET     /api/v1/categories/{id}     retorna uma categoria unico
+   GET     /api/v1/categories/{id}     retorna uma unica categoria
    
    PUT     /api/v1/categories/{id}     atualiza uma categoria
 ~~~
