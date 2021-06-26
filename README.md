@@ -41,7 +41,7 @@ Verbo HTTP        Path                 Action
    
    POST     /api/v1/categories         adiciona uma categoria
    
-   DELETE   /api/v1/categories/{id}    exclui uma categoria, mas, só é possivel se a mesma não estiver sedo utilizada por nenhum anime 
+   DELETE   /api/v1/categories/{id}    exclui uma categoria 
    
    GET     /api/v1/categories/{id}     retorna uma única categoria
    

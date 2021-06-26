@@ -50,7 +50,7 @@ public class CategoryController {
     }
 
     @DeleteMapping("/{id}")
-    @ApiOperation("Exclui uma categoria, mas, só é possivel se a mesma não estiver sedo utilizada por nenhum anime")
+    @ApiOperation("Exclui uma categoria")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable Long id) throws CategoryNotFoundException {
         categoryService.delete(id);

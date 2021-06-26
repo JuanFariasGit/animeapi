@@ -30,6 +30,6 @@ public class Anime {
 
     private LocalDateTime lastView;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Category> categories;
 }
