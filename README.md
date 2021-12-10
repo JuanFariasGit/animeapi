@@ -2,6 +2,8 @@
 
 ### disponível em https://animeapi-project-spring-boot.herokuapp.com/swagger-ui.html
 
+Versão do Java utilizado: 11
+
 SGDB utilizado : PostgreSQL
 
 Configuração localhost:
