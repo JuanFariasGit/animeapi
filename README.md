@@ -4,7 +4,7 @@
 
 Versão do Java utilizado: 11
 
-SGDB utilizado : PostgreSQL
+SGBD utilizado : PostgreSQL
 
 Configuração localhost:
 ~~~
